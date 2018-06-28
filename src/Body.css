@@ -1,0 +1,39 @@
+.body {
+    width:300px;
+    height: 450px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #282726;
+}
+.screen {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+}
+.button-main {
+    width: 80%;
+    height: 65%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: 18% 18% 18% 18%;
+    grid-gap: 15px;    
+}
+.button-col {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 30px;
+    
+}
+.button-col >div {
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color: #a7141a;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
